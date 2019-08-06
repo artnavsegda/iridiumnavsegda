@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Panel Version="3.0" EditorVersion="1.0.1.17590" ProjectVersion="16" Architecture="0" Width="2048" Height="1536" ResolutionName="iPad 3,4,Air (2048x1536)" PortraitWidth="1536" PortraitHeight="2048" LandscapeWidth="2048" LandscapeHeight="1536" DefaultOrientation="0" CustomerInfo="" NameInfo="" AddressInfo="" PhoneInfo="" EmailInfo="" DescriptionInfo="" ProjectGUID="616FF5E1-D64E-4EDB-9930-DFEE4AC7BCBB" SyncWithServerProject="0" SortType="0">
+    <StartUp Page="Page 1" Sleep="Page 1" Time="0" ShowPage="1" EnableScript="0" ScriptName="" HideType="0"/>
+    <Devices>
+        <Device ID="1" Type="141" Name="Crestron">
+            <Channels>
+                <Channel ID="1" Name="S-1_System_Power_On" Size="6" Data="00,00,02,00,00,00"/>
+                <Channel ID="2" Name="S-1_System_Standby" Size="6" Data="00,00,03,00,00,00"/>
+                <Channel ID="3" Name="S-1_Main_Power_On" Size="6" Data="00,00,09,00,00,00"/>
+                <Channel ID="4" Name="S-1_Main_Standby" Size="6" Data="00,00,0A,00,00,00"/>
+                <Channel ID="5" Name="S-1_Main_Volume_Up" Size="6" Data="00,00,0B,00,00,00"/>
+                <Channel ID="6" Name="S-1_Main_Volume_Down" Size="6" Data="00,00,0C,00,00,00"/>
+                <Channel ID="7" Name="S-1_Main_Mute_On/Off" Size="6" Data="00,00,0D,00,00,00"/>
+                <Channel ID="8" Name="S-1_Main_Mute_On" Size="6" Data="00,00,0E,00,00,00"/>
+                <Channel ID="9" Name="S-1_Main_Mute_Off" Size="6" Data="00,00,0F,00,00,00"/>
+                <Channel ID="10" Name="S-1_Main_Input_AV1" Size="6" Data="00,00,13,00,00,00"/>
+                <Channel ID="11" Name="S-1_Main_Input_AV2" Size="6" Data="00,00,14,00,00,00"/>
+                <Channel ID="12" Name="S-1_Main_Input_AV3" Size="6" Data="00,00,15,00,00,00"/>
+                <Channel ID="13" Name="S-1_Main_Input_AV4" Size="6" Data="00,00,16,00,00,00"/>
+                <Channel ID="14" Name="S-1_Main_Input_Bluetooth" Size="6" Data="00,00,17,00,00,00"/>
+                <Channel ID="15" Name="S-1_Main_Input_Net_Radio" Size="6" Data="00,00,18,00,00,00"/>
+                <Channel ID="16" Name="S-1_Main_Input_Airplay" Size="6" Data="00,00,19,00,00,00"/>
+                <Channel ID="17" Name="S-1_Zone2_Power_On" Size="6" Data="00,00,1D,00,00,00"/>
+                <Channel ID="18" Name="S-1_Zone2_Standby" Size="6" Data="00,00,1E,00,00,00"/>
+                <Channel ID="19" Name="S-1_Zone2_Volume_Up" Size="6" Data="00,00,1F,00,00,00"/>
+                <Channel ID="20" Name="S-1_Zone2_Volume_Down" Size="6" Data="00,00,20,00,00,00"/>
+                <Channel ID="21" Name="S-1_Zone2_Mute_On/Off" Size="6" Data="00,00,21,00,00,00"/>
+                <Channel ID="22" Name="S-1_Zone2_Mute_On" Size="6" Data="00,00,22,00,00,00"/>
+                <Channel ID="23" Name="S-1_Zone2_Mute_Off" Size="6" Data="00,00,23,00,00,00"/>
+                <Channel ID="24" Name="S-1_Zone2_Input_AV1" Size="6" Data="00,00,27,00,00,00"/>
+                <Channel ID="25" Name="S-1_Zone2_Input_AV2" Size="6" Data="00,00,28,00,00,00"/>
+                <Channel ID="26" Name="S-1_Zone2_Input_AV3" Size="6" Data="00,00,29,00,00,00"/>
+                <Channel ID="27" Name="S-1_Zone2_Input_AV4" Size="6" Data="00,00,2A,00,00,00"/>
+                <Channel ID="28" Name="S-1_Zone2_input_Bluetooth" Size="6" Data="00,00,2B,00,00,00"/>
+                <Channel ID="29" Name="S-1_Zone2_Input_Net_Radio" Size="6" Data="00,00,2C,00,00,00"/>
+                <Channel ID="30" Name="S-1_Zone2_Input_Airplay" Size="6" Data="00,00,2D,00,00,00"/>
+                <Channel ID="31" Name="S-1_Net_Radio_Play" Size="6" Data="00,00,33,00,00,00"/>
+                <Channel ID="32" Name="S-1_Net_Radio_Stop" Size="6" Data="00,00,35,00,00,00"/>
+                <Channel ID="33" Name="S-1_Net_Radio_Memory_Preset_Location_Save" Size="6" Data="00,00,38,00,00,00"/>
+                <Channel ID="34" Name="S-1_Net_Radio_Memory_Preset_Location_Recall" Size="6" Data="00,00,39,00,00,00"/>
+                <Channel ID="35" Name="S-1_Airplay_Play" Size="6" Data="00,00,3D,00,00,00"/>
+                <Channel ID="36" Name="S-1_Airplay_Pause" Size="6" Data="00,00,3E,00,00,00"/>
+                <Channel ID="37" Name="S-1_Airplay_Stop" Size="6" Data="00,00,3F,00,00,00"/>
+                <Channel ID="38" Name="S-1_Airplay_Skip_Forward" Size="6" Data="00,00,40,00,00,00"/>
+                <Channel ID="39" Name="S-1_Airplay_Skip_Reverse" Size="6" Data="00,00,41,00,00,00"/>
+                <Channel ID="40" Name="S-1_Bluetooth_Play" Size="6" Data="00,00,47,00,00,00"/>
+                <Channel ID="41" Name="S-1_Bluetooth_Pause" Size="6" Data="00,00,48,00,00,00"/>
+                <Channel ID="42" Name="S-1_Bluetooth_Stop" Size="6" Data="00,00,49,00,00,00"/>
+                <Channel ID="43" Name="S-1_Bluetooth_Skip_Forward" Size="6" Data="00,00,4A,00,00,00"/>
+                <Channel ID="44" Name="S-1_Bluetooth_Skip_Reverse" Size="6" Data="00,00,4B,00,00,00"/>
+                <Channel ID="45" Name="Command 1" Size="6" Data="01,00,00,00,00,00"/>
+                <Channel ID="46" Name="Command 2" Size="6" Data="01,00,01,00,00,00"/>
+                <Channel ID="47" Name="Command 3" Size="6" Data="01,00,02,00,00,00"/>
+            </Channels>
+            <Tags>
+                <Tag ID="1" Name="S-1_Connected" Size="10" Data="00,00,00,00,00,00,00,00,00,00"/>
+                <Tag ID="2" Name="S-1_Receiver_Is_Initializing" Size="10" Data="00,00,01,00,00,00,00,00,00,00"/>
+                <Tag ID="3" Name="S-1_System_Power_Is_On" Size="10" Data="00,00,02,00,00,00,00,00,00,00"/>
+                <Tag ID="4" Name="S-1_System_Power_Is_Standby" Size="10" Data="00,00,03,00,00,00,00,00,00,00"/>
+                <Tag ID="5" Name="S-1_Main_Power_Is_On" Size="10" Data="00,00,09,00,00,00,00,00,00,00"/>
+                <Tag ID="6" Name="S-1_Main_Power_Is_Standby" Size="10" Data="00,00,0A,00,00,00,00,00,00,00"/>
+                <Tag ID="7" Name="S-1_Main_Mute_Is_On" Size="10" Data="00,00,0E,00,00,00,00,00,00,00"/>
+                <Tag ID="8" Name="S-1_Main_Input_Is_AV1" Size="10" Data="00,00,13,00,00,00,00,00,00,00"/>
+                <Tag ID="9" Name="S-1_Main_Input_Is_AV2" Size="10" Data="00,00,14,00,00,00,00,00,00,00"/>
+                <Tag ID="10" Name="S-1_Main_Input_Is_AV3" Size="10" Data="00,00,15,00,00,00,00,00,00,00"/>
+                <Tag ID="11" Name="S-1_Main_Input_Is_AV4" Size="10" Data="00,00,16,00,00,00,00,00,00,00"/>
+                <Tag ID="12" Name="S-1_Main_Input_Is_Bluetooth" Size="10" Data="00,00,17,00,00,00,00,00,00,00"/>
+                <Tag ID="13" Name="S-1_Main_Input_Is_Net_Radio" Size="10" Data="00,00,18,00,00,00,00,00,00,00"/>
+                <Tag ID="14" Name="S-1_Main_Input_Is_Airplay" Size="10" Data="00,00,19,00,00,00,00,00,00,00"/>
+                <Tag ID="15" Name="S-1_Zone2_Power_Is_On" Size="10" Data="00,00,1D,00,00,00,00,00,00,00"/>
+                <Tag ID="16" Name="S-1_Zone2_Power_Is_Standby" Size="10" Data="00,00,1E,00,00,00,00,00,00,00"/>
+                <Tag ID="17" Name="S-1_Zone2_Mute_Is_On" Size="10" Data="00,00,22,00,00,00,00,00,00,00"/>
+                <Tag ID="18" Name="S-1_Zone2_Input_Is_AV1" Size="10" Data="00,00,27,00,00,00,00,00,00,00"/>
+                <Tag ID="19" Name="S-1_Zone2_Input_Is_AV2" Size="10" Data="00,00,28,00,00,00,00,00,00,00"/>
+                <Tag ID="20" Name="S-1_Zone2_Input_Is_AV3" Size="10" Data="00,00,29,00,00,00,00,00,00,00"/>
+                <Tag ID="21" Name="S-1_Zone2_Input_Is_AV4" Size="10" Data="00,00,2A,00,00,00,00,00,00,00"/>
+                <Tag ID="22" Name="S-1_Zone2_Input_Is_Bluetooth" Size="10" Data="00,00,2B,00,00,00,00,00,00,00"/>
+                <Tag ID="23" Name="S-1_Zone2_Input_Is_Net_Radio" Size="10" Data="00,00,2C,00,00,00,00,00,00,00"/>
+                <Tag ID="24" Name="S-1_Zone2_Input_Is_Airplay" Size="10" Data="00,00,2D,00,00,00,00,00,00,00"/>
+                <Tag ID="25" Name="S-1_Net_Radio_Is_Not_Ready" Size="10" Data="00,00,31,00,00,00,00,00,00,00"/>
+                <Tag ID="26" Name="S-1_Net_Radio_Is_Ready" Size="10" Data="00,00,32,00,00,00,00,00,00,00"/>
+                <Tag ID="27" Name="S-1_Net_Radio_Is_Playing" Size="10" Data="00,00,33,00,00,00,00,00,00,00"/>
+                <Tag ID="28" Name="S-1_Net_Radio_Is_Stopped" Size="10" Data="00,00,35,00,00,00,00,00,00,00"/>
+                <Tag ID="29" Name="S-1_Airplay_Is_Not_Ready" Size="10" Data="00,00,3B,00,00,00,00,00,00,00"/>
+                <Tag ID="30" Name="S-1_Airplay_Is_Ready" Size="10" Data="00,00,3C,00,00,00,00,00,00,00"/>
+                <Tag ID="31" Name="S-1_Airplay_Is_Playing" Size="10" Data="00,00,3D,00,00,00,00,00,00,00"/>
+                <Tag ID="32" Name="S-1_Airplay_Is_Paused" Size="10" Data="00,00,3E,00,00,00,00,00,00,00"/>
+                <Tag ID="33" Name="S-1_Airplay_Is_Stopped" Size="10" Data="00,00,3F,00,00,00,00,00,00,00"/>
+                <Tag ID="34" Name="S-1_Bluetooth_Is_Not_Ready" Size="10" Data="00,00,45,00,00,00,00,00,00,00"/>
+                <Tag ID="35" Name="S-1_Bluetooth_Is_Ready" Size="10" Data="00,00,46,00,00,00,00,00,00,00"/>
+                <Tag ID="36" Name="Feedback 1" Size="10" Data="01,00,00,00,00,00,00,00,00,00"/>
+                <Tag ID="37" Name="Feedback 2" Size="10" Data="01,00,01,00,00,00,00,00,00,00"/>
+                <Tag ID="38" Name="Feedback 3" Size="10" Data="01,00,02,00,00,00,00,00,00,00"/>
+            </Tags>
+        </Device>
+    </Devices>
+    <Scripts/>
+    <RelationsTags>
+        <RelationTags LHS="Drivers.Crestron.S-1_Connected" RHS="UI.Page 1.Item 1.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Receiver_Is_Initializing" RHS="UI.Page 1.Item 2.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_System_Power_Is_On" RHS="UI.Page 1.Item 3.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_System_Power_Is_Standby" RHS="UI.Page 1.Item 4.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Power_Is_On" RHS="UI.Page 1.Item 5.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Power_Is_Standby" RHS="UI.Page 1.Item 6.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Mute_Is_On" RHS="UI.Page 1.Item 7.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_AV1" RHS="UI.Page 1.Item 8.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_AV2" RHS="UI.Page 1.Item 9.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_AV3" RHS="UI.Page 1.Item 10.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_AV4" RHS="UI.Page 1.Item 11.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_Bluetooth" RHS="UI.Page 1.Item 12.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_Net_Radio" RHS="UI.Page 1.Item 13.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Main_Input_Is_Airplay" RHS="UI.Page 1.Item 14.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Power_Is_On" RHS="UI.Page 1.Item 15.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Power_Is_Standby" RHS="UI.Page 1.Item 16.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Mute_Is_On" RHS="UI.Page 1.Item 17.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_AV1" RHS="UI.Page 1.Item 18.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_AV2" RHS="UI.Page 1.Item 19.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_AV3" RHS="UI.Page 1.Item 20.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_AV4" RHS="UI.Page 1.Item 21.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_Bluetooth" RHS="UI.Page 1.Item 22.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_Net_Radio" RHS="UI.Page 1.Item 23.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Zone2_Input_Is_Airplay" RHS="UI.Page 1.Item 24.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Net_Radio_Is_Not_Ready" RHS="UI.Page 1.Item 25.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Net_Radio_Is_Ready" RHS="UI.Page 1.Item 26.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Net_Radio_Is_Playing" RHS="UI.Page 1.Item 27.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Net_Radio_Is_Stopped" RHS="UI.Page 1.Item 28.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Airplay_Is_Not_Ready" RHS="UI.Page 1.Item 29.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Airplay_Is_Ready" RHS="UI.Page 1.Item 30.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Airplay_Is_Playing" RHS="UI.Page 1.Item 31.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Airplay_Is_Paused" RHS="UI.Page 1.Item 32.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Airplay_Is_Stopped" RHS="UI.Page 1.Item 33.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Bluetooth_Is_Not_Ready" RHS="UI.Page 1.Item 34.Value"/>
+        <RelationTags LHS="Drivers.Crestron.S-1_Bluetooth_Is_Ready" RHS="UI.Page 1.Item 35.Value"/>
+        <RelationTags LHS="Drivers.Crestron.Feedback 1" RHS="UI.Page 1.Item 36.Value"/>
+        <RelationTags LHS="Drivers.Crestron.Feedback 2" RHS="UI.Page 1.Item 37.Value"/>
+        <RelationTags LHS="Drivers.Crestron.Feedback 3" RHS="UI.Page 1.Item 38.Value"/>
+    </RelationsTags>
+    <Images/>
+    <Icons/>
+    <Fonts>
+        <Font ID="1" Name="Tahoma" File="tahoma.ttf" Size="8"/>
+        <Font ID="2" Name="Tahoma" File="tahoma.ttf" Size="11"/>
+    </Fonts>
+    <Sounds/>
+    <Effects/>
+    <Pages>
+        <Page Name="Page 1" Orientation="0">
+            <State>
+                <Canvas Color="#C0C0C0FF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                <Template Color="#FFFFFFFF"/>
+            </State>
+            <Item Name="Item 1" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="64" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Connected&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 2" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="128" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Receiver_Is_Initializing&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 3" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="192" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_System_Power_Is_On&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 4" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="256" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_System_Power_Is_Standby&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 5" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="64" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Power_Is_On&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 6" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="128" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Power_Is_Standby&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 7" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="192" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Mute_Is_On&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 8" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="256" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_AV1&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 9" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="320" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_AV2&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 10" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="384" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_AV3&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 11" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="448" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_AV4&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 12" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="512" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_Bluetooth&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 13" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="576" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_Net_Radio&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 14" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1216" Y="640" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Main_Input_Is_Airplay&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 15" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="64" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Power_Is_On&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 16" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="128" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Power_Is_Standby&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 17" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="192" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Mute_Is_On&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 18" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="256" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_AV1&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 19" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="320" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_AV2&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 20" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="384" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_AV3&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 21" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="448" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_AV4&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 22" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="512" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_Bluetooth&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 23" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="576" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_Net_Radio&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 24" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="1600" Y="640" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Zone2_Input_Is_Airplay&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 25" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="1152" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Net_Radio_Is_Not_Ready&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 26" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="1216" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Net_Radio_Is_Ready&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 27" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="1280" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Net_Radio_Is_Playing&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 28" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="64" Y="1344" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Net_Radio_Is_Stopped&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 29" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="448" Y="1152" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Airplay_Is_Not_Ready&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 30" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="448" Y="1216" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Airplay_Is_Ready&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 31" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="448" Y="1280" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Airplay_Is_Playing&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 32" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="448" Y="1344" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Airplay_Is_Paused&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 33" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="448" Y="1408" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Airplay_Is_Stopped&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 34" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="832" Y="1152" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Bluetooth_Is_Not_Ready&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 35" Type="0" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0">
+                <Rect X="832" Y="1216" W="300" H="36"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" Text=" &lt;Drivers.Crestron.S-1_Bluetooth_Is_Ready&gt;: $V" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00034521" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#000000FF" Align="5" EffectColor="#000000FF" FontID="1"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+            </Item>
+            <Item Name="Item 36" Type="1" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0" RangeType="0" Min="0" Max="65535" Direction="1" FocusLockReceive="0" Invert="0" CursorID="0" CursorImageID="0" SliderStretch="0" CursorColor="#000000FF">
+                <Rect X="581" Y="735" W="300" H="45"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00054321" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#C0C0C0FF" Align="5" Text="&lt; Crestron.Feedback 1&gt;$V" EffectColor="#000000FF" FontID="2"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00054321" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#C0C0C0FF" Align="5" EffectColor="#000000FF" FontID="2"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <ActionCases>
+                    <ActionCase Event="move">
+                        <Action Type="send_tag" DeviceID="1" ChannelID="45" GUID="C43BAF7A-1C55-4C87-8131-7B4BEDD1E439" Param="UI.Page 1.Item 36.Value"/>
+                    </ActionCase>
+                </ActionCases>
+            </Item>
+            <Item Name="Item 37" Type="1" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0" RangeType="0" Min="-12" Max="12" Direction="1" FocusLockReceive="0" Invert="0" CursorID="0" CursorImageID="0" SliderStretch="0" CursorColor="#000000FF">
+                <Rect X="581" Y="800" W="300" H="45"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00054321" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#C0C0C0FF" Align="5" Text="&lt; Crestron.Feedback 2&gt;$V" EffectColor="#000000FF" FontID="2"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00054321" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#C0C0C0FF" Align="5" EffectColor="#000000FF" FontID="2"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <ActionCases>
+                    <ActionCase Event="press">
+                        <Action Type="send_tag" DeviceID="1" ChannelID="46" GUID="DB72EFCD-B701-4D74-83AF-2F5E71657D91" Param="UI.Page 1.Item 37.Value"/>
+                    </ActionCase>
+                </ActionCases>
+            </Item>
+            <Item Name="Item 38" Type="1" Feedback="1" Hit="1" HoldTime="500" RepeatTime="250" DefaultValue="0" RangeType="0" Min="-12" Max="12" Direction="1" FocusLockReceive="0" Invert="0" CursorID="0" CursorImageID="0" SliderStretch="0" CursorColor="#000000FF">
+                <Rect X="581" Y="861" W="300" H="45"/>
+                <State>
+                    <Canvas Color="#3E9EFFFF" Opacity="255" Order="#00054321" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#C0C0C0FF" Align="5" Text="&lt; Crestron.Feedback 3&gt;$V" EffectColor="#000000FF" FontID="2"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <State>
+                    <Canvas Color="#52FE9CFF" Opacity="255" Order="#00054321" ImageAlign="5" IconAlign="5"/>
+                    <Text Color="#C0C0C0FF" Align="5" EffectColor="#000000FF" FontID="2"/>
+                    <Template Color="#FFFFFFFF"/>
+                </State>
+                <ActionCases>
+                    <ActionCase Event="press">
+                        <Action Type="send_tag" DeviceID="1" ChannelID="47" GUID="3FDB17D9-2670-434B-86AD-A465D554DFC5" Param="UI.Page 1.Item 38.Value"/>
+                    </ActionCase>
+                </ActionCases>
+            </Item>
+        </Page>
+    </Pages>
+    <Popups/>
+    <Folders>
+        <Branch Name="Page 1" Type="4"/>
+    </Folders>
+    <Schemes/>
+</Panel>

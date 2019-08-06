@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Editor Version="3.0" EditorVersion="1.0.1.17590" ProjectVersion="16" Architecture="0" Width="2048" Height="1536" ResolutionName="iPad 3,4,Air (2048x1536)" PortraitWidth="1536" PortraitHeight="2048" LandscapeWidth="2048" LandscapeHeight="1536" DefaultOrientation="0" CustomerInfo="" NameInfo="" AddressInfo="" PhoneInfo="" EmailInfo="" DescriptionInfo="" ProjectGUID="616FF5E1-D64E-4EDB-9930-DFEE4AC7BCBB" SyncWithServerProject="0" SortType="0">
+    <StartUp Page="Page 1" Sleep="Page 1" Time="0" ShowPage="1" EnableScript="0" ScriptName="" HideType="0"/>
+    <DeviceFolders>
+        <Branch Name="Crestron" Type="9" GUID="5CEA8A9A-1190-4414-8050-4E22325E304D" DeviceType="20" Protocol="1" StudioControllerID="31" ID="1">
+            <Branch Type="16">
+                <Branch Name="Online" Type="17" GUID="E03CFF6D-680F-4E7F-BA88-B077C252B51E" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                <Branch Name="Status" Type="17" GUID="8F0ABB7A-2E5E-45EF-8A10-63576E34B12E" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                <Branch Name="Host" Type="17" GUID="B0FB2DE8-5746-4B44-A176-B2D19AE15C62" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                <Branch Name="IP" Type="17" GUID="09CC38D8-C63E-4800-9B8D-83FCD4A0E4B3" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                <Branch Name="Port" Type="17" GUID="A18C2CB2-BA47-4CCC-A310-0E0BA62A02D6" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                <Branch Name="HostIP" Type="17" GUID="B6A6C222-4EE2-40BB-A72F-449FE6A2A171" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                <Branch Name="HostPort" Type="17" GUID="9CB06376-F817-4655-8148-DA82C6FC0511" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+            </Branch>
+            <Branch Name="Virtual" Type="15">
+                <Branch Name="Commands" Type="18" GUID="2B698465-067D-47F3-9EEC-577A703462F9">
+                    <Branch Name="S-1_System_Power_On" Type="13" GUID="2AEEE239-AE72-405A-8655-998F5A6A7604" ID="1" Data="00,00,02,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_System_Standby" Type="13" GUID="39002C16-BF31-4786-A726-F794E516F139" ID="2" Data="00,00,03,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Power_On" Type="13" GUID="7AB67BE0-EE9F-4A96-9E88-A08EF47BB275" ID="3" Data="00,00,09,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Standby" Type="13" GUID="85782EC5-7157-4B9C-86EE-C5A5F1799188" ID="4" Data="00,00,0A,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Volume_Up" Type="13" GUID="E42F3B8D-FC76-4526-AA3B-BDB36C95C1D5" ID="5" Data="00,00,0B,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Volume_Down" Type="13" GUID="277694BF-B11F-49F0-92F1-99C8B9340E7D" ID="6" Data="00,00,0C,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Mute_On/Off" Type="13" GUID="78A7520A-CD8F-4F00-8690-B31A1F59155C" ID="7" Data="00,00,0D,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Mute_On" Type="13" GUID="EE8F2B49-F050-4EEB-9DEC-4DDB9FA95B72" ID="8" Data="00,00,0E,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Mute_Off" Type="13" GUID="735DC1A8-E9BE-4EEF-9EC1-16BC8181B51D" ID="9" Data="00,00,0F,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_AV1" Type="13" GUID="EB9856A0-D02D-4AF4-9A5A-27EAE652F6A7" ID="10" Data="00,00,13,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_AV2" Type="13" GUID="46CC87F4-485B-404A-9B8F-DD8AB44468D4" ID="11" Data="00,00,14,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_AV3" Type="13" GUID="744C6244-4ADA-44C4-8DE0-60D4F492A58A" ID="12" Data="00,00,15,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_AV4" Type="13" GUID="4C5B59BB-33D6-4706-B54F-CE8AF9BB1BEF" ID="13" Data="00,00,16,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_Bluetooth" Type="13" GUID="94F93C6C-76ED-4F76-B0C0-D1B15BEB3D9A" ID="14" Data="00,00,17,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_Net_Radio" Type="13" GUID="588369AE-636C-4245-8986-5A2370316B6D" ID="15" Data="00,00,18,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Main_Input_Airplay" Type="13" GUID="BD1D39EB-1583-4BF9-92C5-A549E14C5A5A" ID="16" Data="00,00,19,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Power_On" Type="13" GUID="D1973BC4-CD50-4255-B09B-655C474BDE02" ID="17" Data="00,00,1D,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Standby" Type="13" GUID="29F61331-3BAE-42C9-B1CF-55DEEAE33FCF" ID="18" Data="00,00,1E,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Volume_Up" Type="13" GUID="E38EE2AF-961D-4938-B8EE-B0CDDF1A33B1" ID="19" Data="00,00,1F,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Volume_Down" Type="13" GUID="A962CF9C-E6EB-4FA5-B891-5CF614C35CC2" ID="20" Data="00,00,20,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Mute_On/Off" Type="13" GUID="F362F943-A7E1-40A0-97F0-679D1CAA2453" ID="21" Data="00,00,21,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Mute_On" Type="13" GUID="9DB89869-3EEE-4B5E-9B73-E9BC693D6C8C" ID="22" Data="00,00,22,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Mute_Off" Type="13" GUID="D338D838-AD0C-4430-B944-088516E325E1" ID="23" Data="00,00,23,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Input_AV1" Type="13" GUID="7EC0C880-D7FB-48CC-BF06-62FFCFE99C10" ID="24" Data="00,00,27,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Input_AV2" Type="13" GUID="A913A99B-18CF-435F-A16A-83B7097045B2" ID="25" Data="00,00,28,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Input_AV3" Type="13" GUID="736F53D6-3E91-4697-9E62-9C548382B6B0" ID="26" Data="00,00,29,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Input_AV4" Type="13" GUID="C0B932A4-70F1-4223-BEF9-6812BC8F4FD1" ID="27" Data="00,00,2A,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_input_Bluetooth" Type="13" GUID="91F56A77-93D7-40D5-82C4-6613BD4D61DC" ID="28" Data="00,00,2B,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Input_Net_Radio" Type="13" GUID="6DCDDB59-CD73-4AD0-B4A3-3E10B9384873" ID="29" Data="00,00,2C,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Zone2_Input_Airplay" Type="13" GUID="46245CF9-5233-4226-9096-B3991D93B6CC" ID="30" Data="00,00,2D,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Net_Radio_Play" Type="13" GUID="B179790A-85DB-45E3-954F-857053CD1F48" ID="31" Data="00,00,33,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Net_Radio_Stop" Type="13" GUID="8977C33F-66CC-4980-AC5E-6D8631C2A59D" ID="32" Data="00,00,35,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Net_Radio_Memory_Preset_Location_Save" Type="13" GUID="945B991B-3C8D-4A49-8F70-E56FC4A18A49" ID="33" Data="00,00,38,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Net_Radio_Memory_Preset_Location_Recall" Type="13" GUID="A3ABF31A-D848-4920-A6E0-A4771DE451AA" ID="34" Data="00,00,39,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Airplay_Play" Type="13" GUID="C1378777-62F5-4A99-9B8D-1F64CE7446D2" ID="35" Data="00,00,3D,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Airplay_Pause" Type="13" GUID="C53A584B-70EF-4806-A032-4A4E9913A937" ID="36" Data="00,00,3E,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Airplay_Stop" Type="13" GUID="66A04440-7B3A-4218-8656-372AAC83DD21" ID="37" Data="00,00,3F,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Airplay_Skip_Forward" Type="13" GUID="5C8E91EC-AB42-4194-9FD0-0DE9D7AA2F92" ID="38" Data="00,00,40,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Airplay_Skip_Reverse" Type="13" GUID="D5609481-104B-4C9F-9BE3-39DBF54CF3EE" ID="39" Data="00,00,41,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Bluetooth_Play" Type="13" GUID="A02630BB-FFF0-4AF0-9AEF-BFF5068DBFBB" ID="40" Data="00,00,47,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Bluetooth_Pause" Type="13" GUID="76D905FE-2D7B-48B4-86D9-EE3E526F1372" ID="41" Data="00,00,48,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Bluetooth_Stop" Type="13" GUID="479B8921-BB9B-431C-9019-1B5D6108E810" ID="42" Data="00,00,49,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Bluetooth_Skip_Forward" Type="13" GUID="5D2B720B-2913-44BF-952D-320FFB5F6095" ID="43" Data="00,00,4A,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="S-1_Bluetooth_Skip_Reverse" Type="13" GUID="DC4BEDC8-CBFD-4D12-9AAA-25DC0F4348F3" ID="44" Data="00,00,4B,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="Command 1" Type="13" GUID="C43BAF7A-1C55-4C87-8131-7B4BEDD1E439" ID="45" Data="01,00,00,00,00,00" ServerData="00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="Command 2" Type="13" GUID="DB72EFCD-B701-4D74-83AF-2F5E71657D91" ID="46" Data="01,00,01,00,00,00" ServerData="00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                    <Branch Name="Command 3" Type="13" GUID="3FDB17D9-2670-434B-86AD-A465D554DFC5" ID="47" Data="01,00,02,00,00,00" ServerData="00,00,00,00,00" ParamServerEditor="OnServer=1;"/>
+                </Branch>
+                <Branch Name="Feedbacks" Type="19" GUID="03C1DEE6-E6C7-4238-B8BB-F803F19B7954">
+                    <Branch Name="S-1_Connected" Type="14" GUID="C70382E8-6A67-409F-AD0A-57000AB3A81C" ID="1" Data="00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Receiver_Is_Initializing" Type="14" GUID="E0C428CB-651A-4D09-9B33-1474070A0970" ID="2" Data="00,00,01,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_System_Power_Is_On" Type="14" GUID="09E8A8BF-243E-47C7-A117-CC0668EA2237" ID="3" Data="00,00,02,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_System_Power_Is_Standby" Type="14" GUID="21C14344-BFBA-4709-A7A4-41B85ADABCC2" ID="4" Data="00,00,03,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Power_Is_On" Type="14" GUID="D27C346C-510E-4950-B21E-E7E8AF699044" ID="5" Data="00,00,09,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Power_Is_Standby" Type="14" GUID="DAF27780-604D-44E1-AF0F-5CB4072324EF" ID="6" Data="00,00,0A,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Mute_Is_On" Type="14" GUID="8BA317F6-050D-4E80-B50B-7C9A9002102B" ID="7" Data="00,00,0E,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_AV1" Type="14" GUID="7A8F88A2-F80C-4C03-9170-87FF3B912F36" ID="8" Data="00,00,13,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_AV2" Type="14" GUID="E9F9D936-2BF3-4EB4-8663-B0F4F66CB1D5" ID="9" Data="00,00,14,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_AV3" Type="14" GUID="720D629E-3FC5-4AEF-964D-E5DDABE0843A" ID="10" Data="00,00,15,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_AV4" Type="14" GUID="880866C0-B5DE-40F5-9D7A-6866DA0D8C1B" ID="11" Data="00,00,16,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_Bluetooth" Type="14" GUID="AEC4645F-EC97-4831-9F07-6C93DA331892" ID="12" Data="00,00,17,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_Net_Radio" Type="14" GUID="D44B32DE-4F8E-45E6-9EA3-80B2A7677B41" ID="13" Data="00,00,18,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Main_Input_Is_Airplay" Type="14" GUID="C6C360B1-92C6-4B66-AF3D-B2DD4BDF101A" ID="14" Data="00,00,19,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Power_Is_On" Type="14" GUID="538E473C-752F-454E-A911-E5CFDAC8688A" ID="15" Data="00,00,1D,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Power_Is_Standby" Type="14" GUID="0D0038E1-B955-4490-A007-533F2F798ECE" ID="16" Data="00,00,1E,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Mute_Is_On" Type="14" GUID="A4418CB5-B0B7-4630-8BA5-34C0B68E0FF6" ID="17" Data="00,00,22,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_AV1" Type="14" GUID="434F9682-5E07-47F2-BA92-9060FDF57FA2" ID="18" Data="00,00,27,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_AV2" Type="14" GUID="D638BC0C-1774-4FD5-B24E-1F41618604A0" ID="19" Data="00,00,28,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_AV3" Type="14" GUID="5B576BA4-423D-4790-919D-B9B728B10E40" ID="20" Data="00,00,29,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_AV4" Type="14" GUID="5FCCBA1C-3474-423D-8D04-D38DEDCE3379" ID="21" Data="00,00,2A,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_Bluetooth" Type="14" GUID="58EB2525-8AA7-494B-B3EE-60ECC6A9849B" ID="22" Data="00,00,2B,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_Net_Radio" Type="14" GUID="6403C818-1569-44E1-9A55-AE92E7020E13" ID="23" Data="00,00,2C,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Zone2_Input_Is_Airplay" Type="14" GUID="257FCD5E-A91F-4778-82C0-B566987D435D" ID="24" Data="00,00,2D,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Net_Radio_Is_Not_Ready" Type="14" GUID="CFF51CD3-7A2E-4F38-A9F6-29320A39ED3F" ID="25" Data="00,00,31,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Net_Radio_Is_Ready" Type="14" GUID="0EA01FF0-C8DE-40C9-B9D7-EEF5D110E9C2" ID="26" Data="00,00,32,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Net_Radio_Is_Playing" Type="14" GUID="A4F98144-1515-435F-BCEA-2C414371C1D2" ID="27" Data="00,00,33,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Net_Radio_Is_Stopped" Type="14" GUID="5E9C78CE-E477-4C0A-866C-265DEB1812F9" ID="28" Data="00,00,35,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Airplay_Is_Not_Ready" Type="14" GUID="434CB009-FF4C-4421-8F54-9C3937DCCD35" ID="29" Data="00,00,3B,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Airplay_Is_Ready" Type="14" GUID="9F3137A7-15CD-4E53-A3AF-2A65C396E52B" ID="30" Data="00,00,3C,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Airplay_Is_Playing" Type="14" GUID="A741E601-D69A-4F5F-ABAE-FAB0B8969F5C" ID="31" Data="00,00,3D,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Airplay_Is_Paused" Type="14" GUID="FEA25CE9-6396-4E0F-BC5D-F506C0FAB833" ID="32" Data="00,00,3E,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Airplay_Is_Stopped" Type="14" GUID="F7A01FFA-2A4F-414E-A85F-E7F746838EEB" ID="33" Data="00,00,3F,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Bluetooth_Is_Not_Ready" Type="14" GUID="00D9C440-14D6-4655-96F0-A13F8040F089" ID="34" Data="00,00,45,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="S-1_Bluetooth_Is_Ready" Type="14" GUID="0BE9D563-A6A6-4187-BFDD-E0518279E640" ID="35" Data="00,00,46,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="Feedback 1" Type="14" GUID="F5FBC8DB-30DB-48A8-A688-E0A93264FF03" ID="36" Data="01,00,00,00,00,00,00,00,00,00" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="Feedback 2" Type="14" GUID="A79FAF1C-D7B9-4679-8747-052063666F30" ID="37" Data="01,00,01,00,00,00,00,00,00,00" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                    <Branch Name="Feedback 3" Type="14" GUID="7248EDEE-2509-43D5-B982-8E4D8BA53158" ID="38" Data="01,00,02,00,00,00,00,00,00,00" ServerData="00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00" ParamServerEditor="OnServer=1;IntervalUnits=0;"/>
+                </Branch>
+            </Branch>
+        </Branch>
+    </DeviceFolders>
+    <Groups/>
+    <Macros/>
+</Editor>

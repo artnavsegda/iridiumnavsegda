@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config Version="3.0" EditorVersion="1.0.1.17590" ProjectType="1" Sound="1" Fullscreen="0" NavigationBar="0" Scale="1" StatusBar="0" Cursor="1" NoFrame="0" AlwaysOnTop="0" CustomPostition="0" CustomPostitionX="0" CustomPostitionY="0" ClearTokensLoad="0" BackgroundColor="#00000000" Render="0" BackGroundMode="0" ServerPort="30464" ServerHost="" ServerLogin="" ServerPassword="" MaxClients="10" GateConnection="0" MultiScreen="0" NoTaskBar="0">
+    <Passwords/>
+    <Log Type="None" Host="192.168.0.1" Port="514" Level="7">
+        <LogLevels>
+            <LogLevel Tag="CORE" Level="7"/>
+            <LogLevel Tag="DATABASE" Level="7"/>
+            <LogLevel Tag="SCRIPT" Level="7"/>
+            <LogLevel Tag="WEBSERVER" Level="7"/>
+        </LogLevels>
+    </Log>
+    <Connections>
+        <Connection Profile="0" ID="1" Host="192.168.88.20" Port="41794" Level="0" Param="NetID=3;TelnetPort=41795;TelnetSSL=0;"/>
+    </Connections>
+</Config>
