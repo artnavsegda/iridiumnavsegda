@@ -26,6 +26,7 @@ icon width: 58
 icon height: 58
 icon font: iRidium_ios7_other_Font_169_Char [27]
 icon font text align: center-middle
+icon font color: ????
 
 arrow left: 576
 arrow top: 0
@@ -34,3 +35,4 @@ arrow height: 88
 arrow font: iRidium_ios7_general_Font_169_Char [30]
 arrow font text: J
 arrow font text align: center-left
+arrow font color: ????
