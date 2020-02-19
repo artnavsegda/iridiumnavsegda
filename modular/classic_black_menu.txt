@@ -1,0 +1,36 @@
+floor(header) component:
+
+width: 640(iphone 5x)
+height: 88
+color: #292929FF
+text: iR_Default Light [18]
+text color: #D5D5D5FF
+text align: absolute
+text top: 50
+text left: 30
+
+room(element) component:
+
+width: 640(iphone 5x)
+height: 88
+color: #2F2F2FFF
+font: iR_Default Light [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 24
+font text left: 116
+
+icon left: 32
+icon top: 16
+icon width: 58
+icon height: 58
+icon font: iRidium_ios7_other_Font_169_Char [27]
+icon font text align: center-middle
+
+arrow left: 576
+arrow top: 0
+arrow width: 42
+arrow height: 88
+arrow font: iRidium_ios7_general_Font_169_Char [30]
+arrow font text: J
+arrow font text align: center-left
