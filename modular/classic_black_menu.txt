@@ -1,3 +1,11 @@
+page header component:
+width: 640(iphone 5x)
+height: 73
+color: #292929FF
+font: iR_Default Light [30]
+text color: #D5D5D5FF
+text align: center-middle
+
 floor(header) component:
 
 width: 640(iphone 5x)
