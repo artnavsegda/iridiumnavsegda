@@ -3,19 +3,43 @@ width: 640(iphone 5x)
 height: 73
 color: #292929FF
 font: iR_Default Light [30]
-text color: #D5D5D5FF
-text align: center-middle
+font text color: #D5D5D5FF
+font text align: center-middle
 
 floor(header) component:
 
 width: 640(iphone 5x)
 height: 88
 color: #292929FF
-text: iR_Default Light [18]
-text color: #D5D5D5FF
-text align: absolute
-text top: 50
-text left: 30
+font: iR_Default Light [18]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 50
+font text left: 30
+
+back button text:
+left: 38
+top: 41
+width: 480
+height: 84
+color: #29292900
+font: iR_Default Light [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 29
+font text left: 17
+font text: Back
+
+back button arrow:
+left: 6
+top: 47
+width: 283
+height: 84
+color: #29292900
+font: iRidium_ios7_general_Font_169_Char [27]
+font color: #D5D5D5FF
+font text align: center-left
+font text: E
 
 room(element) component:
 
