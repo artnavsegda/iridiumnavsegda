@@ -28,7 +28,7 @@ top: 538
 width: 95
 height: 95
 color: #292929FF
-text:  MENU
+text: MENU
 font: iR_Default Light [18]
 font color: #D5D5D5FF
 font text align: center-middle
@@ -54,7 +54,7 @@ top: 262
 width: 95
 height: 95
 color: #292929FF
-text:  MENU
+text:  OK
 font: iR_Default Light [20]
 font color: #D5D5D5FF
 font text align: center-middle
