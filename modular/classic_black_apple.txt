@@ -1,0 +1,109 @@
+page background component:
+width: 640(iphone 5x)
+height: 702
+color: #2F2F2FFF
+font: iR_Default Light [30]
+font text color: #D5D5D5FF
+font text align: absolute
+font text top: 30
+font text left: 116
+
+
+
+
+
+
+
+
+
+================================== TRASH
+
+floor(header) component:
+
+width: 640(iphone 5x)
+height: 88
+color: #292929FF
+font: iR_Default Light [18]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 50
+font text left: 30
+
+back button text:
+left: 38
+top: 41
+width: 480
+height: 84
+color: #29292900
+font: iR_Default Light [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 29
+font text left: 17
+font text: Back
+
+back button arrow:
+left: 6
+top: 47
+width: 283
+height: 84
+color: #29292900
+font: iRidium_ios7_general_Font_169_Char [27]
+font color: #D5D5D5FF
+font text align: center-left
+font text: E
+
+room(element) component:
+
+width: 640(iphone 5x)
+height: 88
+color: #2F2F2FFF
+font: iR_Default Light [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 24
+font text left: 116
+
+icon left: 32
+icon top: 16
+icon width: 58
+icon height: 58
+icon font: iRidium_ios7_other_Font_169_Char [27]
+icon font text align: center-middle
+icon font color: #D5D5D5FF
+
+arrow left: 576
+arrow top: 0
+arrow width: 42
+arrow height: 88
+arrow font: iRidium_ios7_general_Font_169_Char [30]
+arrow font text: J
+arrow font text align: center-left
+arrow font color: #D5D5D5FF
+
+light control component:
+
+width: 640(iphone 5x)
+height: 86
+color: #2F2F2FFF
+font: iR_Default Light [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 30
+font text left: 116
+
+icon left: 32
+icon top: 16
+icon width: 58
+icon height: 58
+icon font: iRidium_ios7_other_Font_169_Char [27]
+icon font text align: center-middle
+icon font color: #D5D5D5FF
+
+switch left: 504
+switch top: 12
+switch width: 104
+switch height: 66
+switch image off: black_off.png
+switch image off: black_on.png
+switch image align: center-middle
