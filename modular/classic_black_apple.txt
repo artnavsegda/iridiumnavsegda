@@ -34,6 +34,8 @@ font color: #D5D5D5FF
 font text align: center-middle
 border: Circle 95
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 playpause button:
 left: 348
@@ -47,6 +49,8 @@ font color: #D5D5D5FF
 font text align: center-middle
 border: Circle 95
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 OK button:
 left: 272
@@ -59,6 +63,8 @@ font: iR_Default Light [20]
 font color: #D5D5D5FF
 font text align: center-middle
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 Up button:
 left: 270
@@ -72,6 +78,8 @@ font color: #D5D5D5FF
 font text align: center-middle
 border: Menu Bottom Rounded 95
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 Left button:
 left: 144
@@ -85,6 +93,8 @@ font color: #D5D5D5FF
 font text align: center-middle
 border: Menu Right Rounded 95
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 Right button:
 left: 367
@@ -98,6 +108,8 @@ font color: #D5D5D5FF
 font text align: center-middle
 border: Menu Left Rounded 95
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 Down button:
 left: 271
@@ -111,6 +123,8 @@ font color: #D5D5D5FF
 font text align: center-middle
 border: Menu Top Rounded 95
 border color: #292929FF
+on color: #2F2F2FFF
+on font color: #29ABE2FF
 
 ================================== TRASH
 
