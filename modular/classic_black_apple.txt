@@ -2,19 +2,38 @@ page background component:
 width: 640(iphone 5x)
 height: 702
 color: #2F2F2FFF
+text: Apple TV
 font: iR_Default Light [30]
 font text color: #D5D5D5FF
 font text align: absolute
 font text top: 30
 font text left: 116
 
+apple tv icon component:
+left: 32
+top: 16
+width: 58
+height: 58
+color: #2F2F2F00
+text: T
+font: Devices iOS8 [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 10
+font text left: 12
 
-
-
-
-
-
-
+menu button:
+left: 204
+top: 538
+width: 95
+height: 95
+color: #292929FF
+text:  menu
+font: iR_Default Light [18]
+font color: #D5D5D5FF
+font text align: center-middle
+border: Circle 95
+border color: #292929FF
 
 ================================== TRASH
 
