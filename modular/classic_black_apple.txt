@@ -35,6 +35,83 @@ font text align: center-middle
 border: Circle 95
 border color: #292929FF
 
+playpause button:
+left: 348
+top: 538
+width: 95
+height: 95
+color: #292929FF
+text:  [
+font: iR_Media_Play [33]
+font color: #D5D5D5FF
+font text align: center-middle
+border: Circle 95
+border color: #292929FF
+
+OK button:
+left: 272
+top: 262
+width: 95
+height: 95
+color: #292929FF
+text:  MENU
+font: iR_Default Light [20]
+font color: #D5D5D5FF
+font text align: center-middle
+border color: #292929FF
+
+Up button:
+left: 270
+top: 131
+width: 97
+height: 131
+color: #292929FF
+text:  1
+font: iR_Arrow [33]
+font color: #D5D5D5FF
+font text align: center-middle
+border: Menu Bottom Rounded 95
+border color: #292929FF
+
+Left button:
+left: 144
+top: 262
+width: 128
+height: 96
+color: #292929FF
+text:  4
+font: iR_Arrow [33]
+font color: #D5D5D5FF
+font text align: center-middle
+border: Menu Right Rounded 95
+border color: #292929FF
+
+Right button:
+left: 367
+top: 261
+width: 127
+height: 96
+color: #292929FF
+text:  2
+font: iR_Arrow [33]
+font color: #D5D5D5FF
+font text align: center-middle
+border: Menu Left Rounded 95
+border color: #292929FF
+
+Down button:
+left: 271
+top: 357
+width: 97
+height: 128
+color: #292929FF
+text:  3
+font: iR_Arrow [33]
+font color: #D5D5D5FF
+font text align: center-middle
+border: Menu Top Rounded 95
+border color: #292929FF
+
 ================================== TRASH
 
 floor(header) component:
