@@ -124,9 +124,11 @@ pause height: 60
 pause font: Video iOS8 [36]
 pause font text align: center-middle
 pause font text: 4
-pause font color: #6F6F74FF
+pause font color off: #6F6F74FF
+pause font color on: #29ABE2FF
 pause border: Circle 25
-pause border color: #6F6F74FF
+pause border color off: #6F6F74FF
+pause border color on: #29ABE2FF
 
 up left: 445
 up top: 16
@@ -135,9 +137,11 @@ up height: 60
 up font: Arrows iOS8 [36]
 up font text align: center-middle
 up font text: g
-up font color: #6F6F74FF
+up font color off: #6F6F74FF
+up font color on: #29ABE2FF
 up border: Circle 25
-up border color: #6F6F74FF
+up border color off: #6F6F74FF
+up border color on: #29ABE2FF
 
 down left: 541
 down top: 16
@@ -146,6 +150,8 @@ down height: 60
 down font: Arrows iOS8 [36]
 down font text align: center-middle
 down font text: i
-down font color: #6F6F74FF
+down font color off: #6F6F74FF
+down font color on: #29ABE2FF
 down border: Circle 25
-down border color: #6F6F74FF
+down border color off: #6F6F74FF
+down border color on: #29ABE2FF
