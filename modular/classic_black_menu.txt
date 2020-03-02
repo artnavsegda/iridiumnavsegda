@@ -128,24 +128,24 @@ pause font color: #6F6F74FF
 pause border: Circle 25
 pause border color: #6F6F74FF
 
-up left: 349
+up left: 445
 up top: 16
 up width: 86
 up height: 60
 up font: Video iOS8 [36]
 up font text align: center-middle
-up font text: 4
+up font text: g
 up font color: #6F6F74FF
 up border: Circle 25
 up border color: #6F6F74FF
 
-down left: 349
+down left: 541
 down top: 16
 down width: 86
 down height: 60
 down font: Video iOS8 [36]
 down font text align: center-middle
-down font text: 4
+down font text: i
 down font color: #6F6F74FF
 down border: Circle 25
 down border color: #6F6F74FF
