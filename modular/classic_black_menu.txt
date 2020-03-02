@@ -117,26 +117,35 @@ icon text top: 10
 icon text left: 12
 icon font color: #D5D5D5FF
 
-pause left: 504
-pause top: 12
-pause width: 104
-pause height: 66
-pause image off: black_off.png
-pause image off: black_on.png
-pause image align: center-middle
+pause left: 349
+pause top: 16
+pause width: 86
+pause height: 60
+pause font: Video iOS8 [36]
+pause font text align: center-middle
+pause font text: 4
+pause font color: #6F6F74FF
+pause border: Circle 25
+pause border color: #6F6F74FF
 
-up left: 504
-up top: 12
-up width: 104
-up height: 66
-up image off: black_off.png
-up image off: black_on.png
-up image align: center-middle
+up left: 349
+up top: 16
+up width: 86
+up height: 60
+up font: Video iOS8 [36]
+up font text align: center-middle
+up font text: 4
+up font color: #6F6F74FF
+up border: Circle 25
+up border color: #6F6F74FF
 
-down left: 504
-down top: 12
-down width: 104
-down height: 66
-down image off: black_off.png
-down image off: black_on.png
-down image align: center-middle
+down left: 349
+down top: 16
+down width: 86
+down height: 60
+down font: Video iOS8 [36]
+down font text align: center-middle
+down font text: 4
+down font color: #6F6F74FF
+down border: Circle 25
+down border color: #6F6F74FF
