@@ -159,7 +159,7 @@ down border color on: #29ABE2FF
 dimmer control component:
 
 width: 640(iphone 5x)
-height: 86
+height: 174
 color: #2F2F2FFF
 font: iR_Default Light [27]
 font color: #D5D5D5FF
@@ -182,3 +182,10 @@ switch height: 66
 switch image off: black_off.png
 switch image off: black_on.png
 switch image align: center-middle
+
+level left: 124
+level top: 89
+level width: 388
+level height: 88
+slider image: slider.png
+chameleon image: status_w.png
