@@ -155,3 +155,30 @@ down font color on: #29ABE2FF
 down border: Circle 25
 down border color off: #6F6F74FF
 down border color on: #29ABE2FF
+
+dimmer control component:
+
+width: 640(iphone 5x)
+height: 86
+color: #2F2F2FFF
+font: iR_Default Light [27]
+font color: #D5D5D5FF
+font text align: absolute
+font text top: 30
+font text left: 116
+
+icon left: 32
+icon top: 16
+icon width: 58
+icon height: 58
+icon font: iRidium_ios7_other_Font_169_Char [27]
+icon font text align: center-middle
+icon font color: #D5D5D5FF
+
+switch left: 504
+switch top: 12
+switch width: 104
+switch height: 66
+switch image off: black_off.png
+switch image off: black_on.png
+switch image align: center-middle
