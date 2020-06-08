@@ -1,0 +1,37 @@
+Before using it:
+1. Open script code editor
+2. Change MAC address of the control panel
+3. Change TV model.
+
+4. Don't change commands names - the script uses them.
+5. Don't change "Script Mode" parameter - the script won't work. That is why I can't make database from this driver - I found it impossibile to change this parameter for the driver added to database.
+6. Set the correct IP address of the TV manually - it is better not to setup IP address automatically (DHCP).
+7. Switch ON the TV.
+
+
+Example in the script:
+
+/** TV device parameters:
+
+ 1. Input a name of the driver from the project device panel, for example "Samsung (Net)"
+ 2. TYPE MAC-ADDRESS OF THE CONTROL PANEL (iPAD, Laptop, etc.) HERE IN FORMAT 00-00-00-00-00-00
+ 3. CHANGE TV MODEL UE32F6330 on yours 
+ 
+ */
+var myTV =  new Samsung_net_main("Samsung (Net)", "00-00-00-00-00-00", "UE32F6330");
+
+/** To add more TVs for controling:
+
+    1. Copy the driver "Samsung (Net)" in the project device panel, the new driver
+       will has the name "Samsung (Net) 1"
+    2. Copy the line 
+       var myTV =  new Samsung_net_main("Samsung (Net)", "00-00-00-00-00-00", "UE32F6330");
+    3. Change line with new TV parameters (Driver name, mac, model) 
+    
+ */
+
+Two TV example in the script
+
+var myTV_1 =  new Samsung_net_main("Samsung (Net) 1", "00-00-00-00-00-00", "UE32F6330");
+var myTV_2 =  new Samsung_net_main("Samsung (Net) 2", "00-00-00-00-00-00", "UE32F6370");
+ 
