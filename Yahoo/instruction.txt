@@ -1,0 +1,13 @@
+Для использования модуля Yahoo Weather требуется аккаунт на Yahoo. Для создания перейдите по ссылке: https://developer.yahoo.com/weather/ и выполните первые 2 шага. 
+Так как Yahoo ограничивает количество запросов от аккаунта к сервису в день, то создавайте отдельный аккаунт для каждого объекта автоматизации. Для рассчета минимального количества запросов исходите из формулы — 24 запроса от каждого модуля погоды, запущенного в i3 pro * количество панелей с модулем на объекте.
+После получения API Keys для модуля понадобится ваши Client ID и Client Secret, которые вы можете найти по ссылке:
+https://developer.yahoo.com/apps/
+В студии откройте скаченый модуль, откройте скрипты и в переменные YAHOO_CONSUMER_KEY и YAHOO_CONSUMER_SECRET введите ваши данные.
+После этого вы можете использовать модуль.
+
+To use the Yahoo Weather module, you need a Yahoo account. To create it, click on the link: https://developer.yahoo.com/weather/ and perform the following actions.
+Yahoo limits the number of requests from an account to a service per day. So create a separate account for each automation object. To calculate the minimum number of requests, proceed from the formula - 24 requests from each weather module launched in i3 pro * number of panels with a module on the object.
+After receiving the API Keys for the module, you will need your Client ID and Client Secret, which you can find by the link:
+https://developer.yahoo.com/apps/
+Open the downloaded module via iRidium studio, open the scripts and enter your data in the variables YAHOO_CONSUMER_KEY and YAHOO_CONSUMER_SECRET.
+After that you can use the module.
