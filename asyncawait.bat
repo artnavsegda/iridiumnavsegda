@@ -1,0 +1,1 @@
+tsc --lib es2015 asyncawait.ts
