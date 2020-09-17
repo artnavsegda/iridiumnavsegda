@@ -1,6 +1,10 @@
 Backup/*
 */Backup/*
 
+# Temp
+temp/
+build/
+
 # Logs
 logs
 *.log
